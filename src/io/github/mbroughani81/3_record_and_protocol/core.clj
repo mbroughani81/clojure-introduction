@@ -68,6 +68,7 @@
   ;; ---------------------------------------- ;;
   (def u1 (cons-user "ABCD-Shop" "seller"))
   u1
+
   (:username u1)
   (:items u1)
   (def i1 (map->Item {:item-id "id1" :name "kala" :price 123}))
